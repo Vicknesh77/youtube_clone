@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Bootstap CDN-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!---->
+    <title>YouTube_Clone</title>
+    <link rel="icon" type="image/png" href="icons/u-tube.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/Button.css">
+  </head>
+  <body >
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div>
+          <div class="upload-icon-container">
+          <img class="youtube-apps-icon" src="icons/dots.svg">
+          <div class="tooltip">More option</div>
+          </div>
+        </div>
+        <div class="upload-icon-container">
+          <div class="notifications-icon-container">
+            <img class="notifications-icon" src="icons/notifications.svg">
+            <div class="notifications-count">9</div>
+            <div class="tooltip">Notifications</div>
+          </div>
+        </div>
+        <div class="upload-icon-container">
+          <img class="current-user-picture" src="channel-pictures/my channel.jpg">
+          <div class="tooltip">My Profile</div>
+        </div>
+        
+      </div>
+    </header>
+<!--Side  bar-->
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Kids</div>
+      </div>
+        <div class="sidebar-link">
+          <img src="icons/library.svg">
+          <div class="tooltip">Library</div>
+          <div>Library</div>
+        </div>
+      </div>
+      
+      <div class="sidebar-link">
+        <img src="icons/settings.svg">
+        <div>Settings</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/history.svg">
+        <div>History</div>
+      </div>
+    </nav>
+    <main>
+      <div>
+        <div class=" button-sec">
+        <!--button-->
+          <button type="button" class="btn btn-secondary btn-sm">All</button>
+
+          <button type="button" class="btn btn-secondary btn-sm">tamil Cinema</button>
+          <button type="button" class="btn btn-secondary btn-sm">One Direction</button>
+          <button type="button" class="btn btn-secondary btn-sm">Gaming</button>
+          <button type="button" class="btn btn-secondary btn-sm">Live</button>
+          <button type="button" class="btn btn-secondary btn-sm">T- series</button>
+          <button type="button" class="btn btn-secondary btn-sm">Computer Programming</button>
+          <button type="button" class="btn btn-secondary btn-sm">Recently Uploaded</button>
+          <button type="button" class="btn btn-secondary btn-sm">Comedy</button>
+          <button type="button" class="btn btn-secondary btn-sm">Indian Pop Music</button>
+          
+        
+        </div>
+      </div>
+      <br>
+      <section class="video-grid">
+<!--Video 1-->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails/Thumbnail.1.jpg">
+            <div class="video-time">2:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="upload-icon-container">
+                <img class="profile-picture" src="channel-pictures/channel.1.jpg">
+                <div class="tooltip">SonyMusicSouth</div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class=" video-link" href="https://www.youtube.com/watch?v=q6e_b0NERCA">LEO - Ordinary Person Lyric </a> 
+              </p>
+              <p class="video-author">
+                SonyMusicSouth
+              </p>
+              <p class="video-stats">
+                50M views &#183; 2 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+<!--Video 2-->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails/Thumbnail.2.jpg">
+            <div class="video-time">3:14</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="upload-icon-container">
+              <img class="profile-picture" src="channel-pictures/channel.2.jpg">
+              <div class="tooltip">SonyMusic</div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="//www.youtube.com/watch?v=PmdyY38g6Rg">
+                ANIMAL - Abrars Entry </a> 
+              </p>
+              <p class="video-author">
+                SonyMusic
+              </p>
+              <p class="video-stats">
+                10M views &#183; 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+<!--Video 3-->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails/Thumbnail.3.jpg">
+            <div class="video-time">3:50:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="upload-icon-container">
+              <img class="profile-picture" src="channel-pictures/channel.3.jpg">
+              <div class="tooltip">FreeCodeCamp</div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=KJgsSFOSQv0">
+                  C - in 4 hours Full Course</a> 
+              </p>
+              <p class="video-author">
+                FreeCodeCamp
+              </p>
+              <p class="video-stats">
+                4M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+<!--Video 4-->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails/Thumbnail.4.jpg">
+            <div class="video-time">4:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="upload-icon-container">
+              <img class="profile-picture" src="channel-pictures/channel.4.jpg">
+              <div class="tooltip">ED-Sheeran</div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=syFZfO_wfMQ">One Direction - Night Changes</a>
+              </p>
+              <p class="video-author">
+                Ed - Sheeran &#10003;
+              </p>
+              <p class="video-stats">
+                80M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+<!--Video 5-->
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails/Thumbnail.5.jpg">
+            <div class="video-time">3:23</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="upload-icon-container">
+              <img class="profile-picture" src="channel-pictures/channel.5.jpg">
+              <div class="tooltip">The Script</div>
+            </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=syFZfO_wfMQ">The Script - Hall of Fame</a>
+              </p>
+              <p class="video-author">
+                The Script </Script>
+              </p>
+              <p class="video-stats">
+                50M views &#183; 7 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+<!--Video 6-->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails/Thumbnail.6.jpg">
+            <div class="video-time">2:24</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="upload-icon-container">
+                <img class="profile-picture" src="channel-pictures/channel.6.png">
+                <div class="tooltip">T-Series</div>
+                </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=xHLnZMjJ8bY">HIGHWAY - Maahi Ve</a>
+                
+              </p>
+              <p class="video-author">
+                T-Series
+              </p>
+              <p class="video-stats">
+                14M views &#183; 5 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+<!--Video 7-->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails/Thumbnail.7.jpg">
+            <div class="video-time">7:40</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="upload-icon-container">
+              <img class="profile-picture" src="channel-pictures/channel.7.png">
+              <div class="tooltip">Telusko</div>
+            </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?app=desktop&v=vR5utJvN4JY">#73 Python Database Connection | MySQL</a>
+                
+              </p>
+              <p class="video-author">
+                TELUSKO &#10003;
+              </p>
+              <p class="video-stats">
+                35M views &#183; 4 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+<!--Video 8-->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails/Thumbnail.8.jpg">
+            <div class="video-time">5:48</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="upload-icon-container">
+              <img class="profile-picture" src="channel-pictures/channel.1.jpg">
+              <div class="tooltip">SouthMusicSouth VEVO </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=bt4-FwVe1Fk">Mazhai Kuruvi Lyric (Tamil)</a>
+                
+              </p>
+              <p class="video-author">
+                SouthMusicSouth VEVO &#10003;
+              </p>
+              <p class="video-stats">
+                20M views &#183; 5 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+<!--Video 9-->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails/Thumbnail.9.webp">
+            <div class="video-time">4:24</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="upload-icon-container">
+              <img class="profile-picture" src="channel-pictures/channel.4.jpg">
+              <div class="tooltip">ED-Sheeran</div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="">Perfect- Ed Sheeran</a>
+                
+              </p>
+              <p class="video-author">
+                ED - Sheeran &#10003;
+              </p>
+              <p class="video-stats">
+                60M views &#183; 4 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+<!--Video 10-->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails/Thumbnail.10.jpg">
+            <div class="video-time">1:18:42</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="upload-icon-container">
+              <img class="profile-picture" src="channel-pictures/channel.10.jpg">
+              <div class="tooltip">Programming with Mosh</div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=BBpAmxU_NQo&list=PLTjRvDozrdlxlMnoG9_yJKPMxMJu8FWRK">Data Structure For Begineers</a>
+                
+              </p>
+              <p class="video-author">
+                Programming with Mosh &#10003;
+              </p>
+              <p class="video-stats">
+                60M views &#183; 4 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+<!--video 11-->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails/Thumbnail.11.jpg">
+            <div class="video-time">8:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="upload-icon-container">
+              <img class="profile-picture" src="channel-pictures/channel.11.jpg">
+              <div class="tooltip">Elon Musk Rewind</div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=dUhvvoVtpVE">Elon Musk MOST SHOCKING INTERVIEW With AI!</a>
+                
+              </p>
+              <p class="video-author">
+                Elon Musk Rewind &#10003;
+              </p>
+              <p class="video-stats">
+                1.2M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+<!--Video 12-->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails/Thumbnail.12.jpg">
+            <div class="video-time">4:20:42</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="upload-icon-container">
+                <img class="profile-picture" src="channel-pictures/channel.3.jpg">
+                <div class="tooltip">FreeCodeCamp.org</div>
+                </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=HXV3zeQKqGY">SQL Tutorial-Course For Beginers</a>
+                
+              </p>
+              <p class="video-author">
+                FreeCodeCamp.org &#10003;
+              </p>
+              <p class="video-stats">
+                16M views &#183; 5 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+  </body>
+</html>
+
+<!--<div class="upload-icon-container">
+              
+              <div class="tooltip">Elon Musk Rewind</div>
+              </div>-->
